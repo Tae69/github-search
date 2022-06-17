@@ -1,0 +1,37 @@
+.container {
+  display: flex !important;
+  min-height: calc(100vh - 56px); /* 56px is bottom nav height */
+}
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.boxDescription {
+  justify-content: center;
+}
+.description {
+  text-align: center;
+  color: gray;
+  padding: 0 2.5rem;
+}
+.description svg {
+  width: 5rem;
+  height: 5rem;
+}
+.description h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 0;
+}
+.description p {
+  font-size: 0.8rem;
+}
+.githubIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.pagination :global(.MuiPagination-ul) {
+	justify-content: center;
+}

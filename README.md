@@ -1,4 +1,4 @@
-(Demo Site)[https://github-search-orcin.vercel.app]
+[Demo Site](https://github-search-orcin.vercel.app)
 
 ## Getting Started
  - Run `npm install`
